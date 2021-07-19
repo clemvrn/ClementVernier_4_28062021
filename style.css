@@ -91,8 +91,8 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
+    background-color: #000000;
+    opacity: 0.5;
 }
 
 .b-parallax {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #303030;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #444444;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -560,6 +560,13 @@ a[data-lightbox]:hover img {
     animation-fill-mode: none;
 }
 
+a[data-lightbox]:focus img {
+    opacity: 0.6;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+}
+
+
 #lightbox-modal {
     display: flex;
     align-items: center;
@@ -739,6 +746,21 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black {
+    color: #303030!important;
+}
+
+.hover-link:hover {
+    text-decoration: underline!important;
+}
+.focus-link:focus {
+    text-decoration: underline!important;
+}
+
+.focus-link:focus span{
+    color:#444444;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -753,7 +775,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(48, 48, 48, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -779,12 +801,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #303030;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #444444!important;
     color: #FFFFFF!important;
 }
 
