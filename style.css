@@ -750,6 +750,10 @@ h4 {
     color: #303030!important;
 }
 
+.bg-transparent {
+    background-color: transparent !important;
+}
+
 .hover-link:hover {
     text-decoration: underline!important;
 }
